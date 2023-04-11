@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-family: 'Spectral', serif; ;
+    font-size: 18px;
+    --primaryColor: #488287;
+    --secondaryColor: #47926f;
+    --textDefaultColor: #cbeade;
+}
+header {
+    background: url(../images/pexels1.jpg);
+    background-size: 800px;
+    text-align: center;
+}
+  body {
+    background-color: var(--primaryColor);
+    color: var(--textDefaultColor);
+    font-family: 'Spectral', serif;
+  }
+  h1, h2, h3 {
+    margin: 10px;
+   }
+
+  main {
+    background: url(../images/pexels2.jpg);
+    background-size: cover;
+  }
+  main ol {
+    padding: 25px 50px;
+    width: 400px;
+    margin: 1px auto;
+    background-color: var(--secondaryColor);
+    
+  }
+  li {
+    margin: 8px;
+    
+  }
+  ol ul {
+    padding-left: 40px;
+     
+  }
+
+  main ol li a{
+    text-decoration: none;
+    color: var(--textDefaultColor);
+
+  }
+  footer {
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    background-color: var(--primaryColor);
+    text-decoration: none;
+  }
+
